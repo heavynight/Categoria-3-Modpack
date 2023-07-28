@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "valid": true,
+  "name": "Headspin",
+  "description": "this is an example emote",
+  "author": "ME",
+  "emote": {
+    "beginTick": 12,
+    "endTick": 70,
+    "stopTick": 75,
+    "isLoop": false,
+    "returnTick": 0,
+    "nsfw": false,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 12,
+        "easing": "INOUTSINE",
+        "head": {
+          "yaw": -1.6755161
+        }
+      },
+      {
+        "tick": 45,
+        "easing": "LINEAR",
+        "head": {
+          "yaw": 63.93141
+        }
+      },
+      {
+        "tick": 45,
+        "easing": "LINEAR",
+        "head": {
+          "yaw": 1.0995587
+        }
+      }
+    ]
+  }
+}
